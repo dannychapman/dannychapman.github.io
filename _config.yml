@@ -1,5 +1,31 @@
-title: Danny Chapman
+#Jekyll config file
 
-#build config
+#title of site
+name: Danny Chapman
+
+#description of site
+description: Web designer and Open Government Fanboy Danny Chapman
+
+#URL of site, include http://, do not include a trailing slash
+url: http://dannychapman.com
+
+#files to exclude, array
+exclude: [ 'readme.md', 'php' ]
+
+#posts per page
+paginate: 5
+
+#number of items in RSS feed
+rss_limit: 10
+
+#permalink structure, see https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink: /:year/:month/:day/:title/
+
+#whether production or dev, minifies JS, bool
+production: true
+
+#local build config
 server: true
-auto: true
+auto: false
+pygments: true
+safe: true

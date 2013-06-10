@@ -1,0 +1,11 @@
+/* People */
+
+Danny Chapman, dannychapman.com
+
+/* Site */
+
+Last Update: 2013-06-10 12:05:27 -0400
+Generator: Jekyll
+Hosting: GitHub Pages
+Standards: HTML5, CSS3
+Components: HTML5 Resent, Responsive Grid System, Modernizr, jQuery

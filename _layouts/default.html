@@ -1,12 +1,11 @@
-<html>
-  <head>
-    <link rel="stylesheet" src="assets/styles/screen.css" />
-  </head>
-  <body>
-    <h1>{{ site.title }}</h1>
-    <h2>{{ page.title }}</h2>
-    <div class="content">
-      {{ content }}
-    </div>
-  <body>
-</html> 
+{% include header.html %}
+
+<div id="content">
+
+
+		{{ content }}
+
+</div><!-- /content -->
+
+
+{% include footer.html %}
