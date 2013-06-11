@@ -26,6 +26,6 @@ production: true
 
 #local build config
 server: true
-auto: false
+auto: true
 pygments: true
 safe: true
