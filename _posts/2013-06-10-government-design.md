@@ -3,7 +3,7 @@ title: Government and design are not mutually exclusive
 description:
 author: Danny Chapman
 layout: post
-category: Announcements
+category: past
 tags:
  - Open Source
  - Design

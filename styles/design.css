@@ -82,6 +82,13 @@ header a {text-decoration: none; color: #fff; }
 
 /*** Posts ***/
 
+#content ul {list-style: square; list-style-type: square; margin: 0 0 1em 0; }
+#content ul li {list-style: square; list-style-type: square; display: block; list-style-position: outside;}
+
+span.date {display: block; color: #66534A; font-family: "garamond-premier-pro-display", "Georgia", serif; }
+
+.previous {border-top: 2px dotted #66534A; margin-top: 1.5em; padding-top: 1em;}
+
 /*** Footer ***/
 
 footer {background: #695850; margin: 1em 0 0 0; color: #fff; padding: 2em 5%; -webkit-box-shadow: 0 5px 5px rgba(0,0,0,.1) inset;}

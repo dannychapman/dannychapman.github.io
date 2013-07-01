@@ -13,7 +13,7 @@ url: http://dannychapman.com
 exclude: [ 'readme.md', 'php' ]
 
 #posts per page
-paginate: 5
+paginate: 1
 
 #number of items in RSS feed
 rss_limit: 10
