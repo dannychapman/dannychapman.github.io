@@ -11,7 +11,7 @@ tags:
 published: true
 ---
 
-Make no mistake, there is good work to be done redesigning our online and in-person user experiences with government. The problem is, design cannot fundamentally change the experience we have with government. A better designed form is good, but it can't change the questions on the form, or the number of times you have to line up in a government building. There are limits to how much improvement we can make if we don't make structural changes to our lawmaking process and the government processes that result.
+Make no mistake, there is good work to be done redesigning our online and in-person user experiences with government. The problem is, design cannot fundamentally change the experience we have with it. A better designed form is good, but it can't change the questions on the form, or the number of times you have to line up in a government building. There are limits to how much improvement we can make if we don't make structural changes to our lawmaking process and the government processes that result.
 
 Typically, there is a significant divide between the process of creating laws and implementing them. Not only in the actual policy decisions at hand, but conceptually — how will the way this new rule is crafted affect the way we interact with it? Well-intentioned but badly designed legislation can and does have disastrous consequences. 
 
