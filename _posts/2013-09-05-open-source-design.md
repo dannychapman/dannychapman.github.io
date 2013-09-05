@@ -36,7 +36,7 @@ A sneak peak of what data.gov will eventually become, [next.data.gov’s design 
 
 #### [Presidential Innovation Fellows Logo](https://github.com/presidential-innovation-fellows/PIF-logo-v2)
 
-I’ve added version 2 of this logo to GitHub, and already added some great improvements made by Andrew Liebchen. 
+I’ve added version 2 of this logo to GitHub, and already added some great improvements made by [Andrew Liebchen.](https://github.com/andrewliebchen) 
 
 It doesn’t have to be limited to UI design either, as this great work from UX designer [Ed Mullen clearly shows.](https://github.com/GSA/datagov-design/issues/36)
 
