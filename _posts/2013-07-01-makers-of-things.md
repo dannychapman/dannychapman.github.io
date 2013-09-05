@@ -3,7 +3,7 @@ title: Makers of things and makers of Government
 description:
 author: Danny Chapman
 layout: post
-category: current
+category: past
 tags:
  - Open Source
  - Design
