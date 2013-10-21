@@ -12,7 +12,7 @@ published: true
 ---
 
 Twitter wasn’t built in a day. The same can be said of Foursquare, Facebook or scores of other .com success stories. The inherent culture of silicon valley is built around the notion that fast, constant experimentation and iterative refinement makes for a good product. 
-It is rather ironic then, given the way amendments rapidly changed our framing documents,that today government shuns the fast, iterative approach of Silicon Valley. 
+It is rather ironic then, given the way amendments rapidly changed our framing documents, that today government shuns the fast, iterative approach of Silicon Valley. 
 
 After the messy and often ugly process of creating legislation is completed, our government typically goes for the big reveal, the showy launch. This isn’t only a legislative issue, it’s often a  policy, or cultural issue. To minimize risk, it is considered preferable to shy away from showing your cards until the thing you’ve built is *finished*. The thing is, like Facebook or Twitter, the work of government never has a finite end to it. 
 
