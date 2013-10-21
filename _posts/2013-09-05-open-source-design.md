@@ -3,7 +3,7 @@ title: Open Source Design
 description:
 author: Danny Chapman
 layout: post
-category: current
+category: past
 tags:
  - Open Source
  - Design

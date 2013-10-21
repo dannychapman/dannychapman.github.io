@@ -75,8 +75,7 @@ header a {text-decoration: none; color: #fff; }
 #content .title a {border-bottom: none;}
 #content h2.title {line-height: 1.1em;}
 
-#content {padding: 2em 2%; margin: 0 auto;  max-width: 700px;}
-
+#content, footer section {padding: 2em 2%; margin: 0 auto;  max-width: 700px;}
 
 #content .post-meta {border-bottom: 1px solid rgba(0,0,0,.1); padding-bottom: .5em; margin-bottom: .5em; font-family: "garamond-premier-pro-display", "Georgia", serif; color: #777; font-size: 1.1em;}
 
@@ -92,6 +91,7 @@ span.date {display: block; color: #66534A; font-family: "garamond-premier-pro-di
 /*** Footer ***/
 
 footer {background: #695850; margin: 1em 0 0 0; color: #fff; padding: 2em 5%; -webkit-box-shadow: 0 5px 5px rgba(0,0,0,.1) inset;}
+footer section {max-width: 700px; margin: 0 auto;}
 
 @media only screen and (min-width: 680px) {
   footer {background: #695850 url(../images/design/backgrounds/footer.jpg) top center no-repeat; background-size: cover;}
