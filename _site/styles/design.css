@@ -106,8 +106,6 @@ footer a {color: #fff; color: rgba(255,255,255,.85); text-decoration: none;}
 footer a:hover {color: #E58C0C;}
 footer p {padding-right: 2em; font-size: .9em; color: #fff; color: rgba(255,255,255,.9);}
 footer .social a   {border-bottom: none;}
-.disclaimer {font-size: .9em; color: rgba(255,255,255,.3);}
-.disclaimer p {line-height: 1.2em; margin: 0; padding: 0 0 .5em 0; }
 
 
 footer h3 {text-transform: uppercase; letter-spacing: 0.1em; font-size: 1em; font-weight: 600; letter-spacing: 0.1em;}
