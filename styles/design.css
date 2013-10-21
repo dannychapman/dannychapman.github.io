@@ -77,6 +77,8 @@ header a {text-decoration: none; color: #fff; }
 
 #content, footer .section {padding: 2em 2%; margin: 0 auto;  max-width: 700px;}
 
+footer .section {padding: 2em 2%; margin: 0 auto;  max-width: 700px;}
+
 #content .post-meta {border-bottom: 1px solid rgba(0,0,0,.1); padding-bottom: .5em; margin-bottom: .5em; font-family: "garamond-premier-pro-display", "Georgia", serif; color: #777; font-size: 1.1em;}
 
 /*** Posts ***/
@@ -104,12 +106,7 @@ footer a {color: #fff; color: rgba(255,255,255,.85); text-decoration: none;}
 footer a:hover {color: #E58C0C;}
 footer p {padding-right: 2em; font-size: .9em; color: #fff; color: rgba(255,255,255,.9);}
 footer .social a   {border-bottom: none;}
-.disclaimer {font-size: .9em; color: rgba(255,255,255,.3); border-top: 1px solid rgba(255,255,255,.1); padding: 1em 0;}
-.disclaimer p {line-height: 1.2em; margin: 0; padding: 0 0 .5em 0; }
 
-@media only screen and (min-width: 680px) {
-  .disclaimer p {width: 65%;}
-}
 
 footer h3 {text-transform: uppercase; letter-spacing: 0.1em; font-size: 1em; font-weight: 600; letter-spacing: 0.1em;}
 .bio img {border: 1px solid rgba(255,255,255,.5); margin: 0 1em 1em 0;}
