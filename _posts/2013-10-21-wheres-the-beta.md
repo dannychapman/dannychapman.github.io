@@ -20,7 +20,7 @@ The rollout of Healthcare.gov has shown that government does a diservice when it
 
 <!--break-->
 
-Clay Johnson, has pointed out the [thorny issue of procurement](http://www.npr.org/blogs/alltechconsidered/2013/10/08/230424841/health-exchange-tech-problems-point-to-a-thornier-issue) is at the root of government technology problems. Ben Balter of Github has chimed in on the [need for better transparency](http://www.npr.org/2013/10/17/235739367/if-a-tech-company-had-built-the-federal-health-care-website). 
+Clay Johnson has pointed out the [thorny issue of procurement](http://www.npr.org/blogs/alltechconsidered/2013/10/08/230424841/health-exchange-tech-problems-point-to-a-thornier-issue) is at the root of government technology problems. Ben Balter of Github has chimed in on the [need for better transparency](http://www.npr.org/2013/10/17/235739367/if-a-tech-company-had-built-the-federal-health-care-website). 
 
 Imagine if in addition to the use of better procurement and transparency, and iterative approach for design, user experience and software engineering had been used in successive waves of beta testing? If Google can leave GMail in beta for years, shouldn’t we expect the same for something as important as our healthcare?
 
