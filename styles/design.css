@@ -1,5 +1,4 @@
 /*** General ***/
-
 header, #content, footer {padding: 0 5%}
 p {line-height: 1.4em; margin-bottom: 1em;}
 #content a {text-decoration: none; border-bottom: 1px solid rgba(0,0,0,.2);}
@@ -7,7 +6,6 @@ ul li {list-style: none; display: block; line-height: 1.75em;}
 h1, h2, h3, h4, h5, h6 {font-weight: normal; margin-bottom: .5em; line-height: 1.4em;}
 ul.feature-list li {border-bottom: 1px solid rgba(255,255,255,.1); line-height: 1.3em; padding: .35em 1em .35em 0;}
 ul.feature-list li:last-child {border-bottom: none;}
-
 ul.feature-list .date, ul.feature-list .source {color: #fff; color: rgba(255,255,255,.5);}
 
 h1 {font-size: 2em;}
