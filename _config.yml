@@ -25,7 +25,5 @@ permalink: /:year/:month/:day/:title/
 production: true
 
 #local build config
-server: true
-auto: true
 pygments: true
 safe: true
