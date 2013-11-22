@@ -70,7 +70,7 @@ header a {text-decoration: none; color: #fff; }
 #content .title a {border-bottom: none;}
 #content h2.title {line-height: 1.1em;}
 
-#content, footer .section {padding: 2em 2%; margin: 0 auto;  max-width: 700px;}
+#content, footer .section {padding: 2em 2%; margin: 0 auto;  max-width: 700px; font-size: .8em}
 
 footer .section {padding: 2em 2%; margin: 0 auto;  max-width: 700px;}
 
