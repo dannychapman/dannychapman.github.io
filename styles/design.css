@@ -23,7 +23,7 @@ body {font-family: "freight-sans-pro" "Helvetica Neue", Helvetica, Arial, sans-s
 header {
   background: url(../images/design/backgrounds/header.jpg) 50% 100%;
   height: auto;
-  padding: 1.75em;
+  padding: 1em;
   box-sizing: border-box;
   text-align: center;
   background-size: cover;
