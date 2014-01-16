@@ -3,7 +3,7 @@ title: Where’s the beta?
 description:
 author: Danny Chapman
 layout: post
-category: current
+category: past
 tags:
  - Beta
  - Design

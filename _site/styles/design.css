@@ -15,7 +15,7 @@ h4 {font-size: 1.4em;}
 h5 {font-size: 1.2em;}
 h6 {font-size: 1em; font-weight: bold;}
 
-body {font-family: "museo-sans" "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; line-height: 1.4em;}
+body {font-family: "museo-sans" "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; line-height: 1.4em; color: #444;}
 
 
 /*** Header ***/
@@ -71,8 +71,9 @@ header a {text-decoration: none; color: #fff; }
 #content h2.title {line-height: 1.1em;}
 
 #content, footer .section {padding: 2em 2%; margin: 0 auto;  max-width: 700px;}
+#content.wide {max-width: 960px; }
 
-footer .section {padding: 2em 2%; margin: 0 auto;  max-width: 700px; font-size: .85em; }
+footer .section {padding: 2em 2%; margin: 0 auto; font-size: .85em; }
 
 #content .post-meta {border-bottom: 1px solid rgba(0,0,0,.1); padding-bottom: .5em; margin-bottom: .5em; font-family: "adobe-caslon-pro", "Georgia", serif; color: #777; font-size: 1.1em;}
 
@@ -107,6 +108,7 @@ footer .social a   {border-bottom: none;}
 footer h3 {text-transform: uppercase; letter-spacing: 0.1em; font-size: 1em; font-weight: 600; letter-spacing: 0.1em;}
 .bio img {border: 1px solid rgba(255,255,255,.5); margin: 0 1em 1em 0;}
 
+img {max-width: 100%;}
 
 /*** Portfolio ***/
 
@@ -114,5 +116,12 @@ footer h3 {text-transform: uppercase; letter-spacing: 0.1em; font-size: 1em; fon
 
 .band {background: #E8E8E8;}
 
+/*** About ***/
 
+.section.about h3, h4, h5, h6 {text-transform: uppercase; font-size: 1em; letter-spacing: 0.06em; font-weight: bold; color: #321F18;}
+.section.about img {max-width: 100%; width: 100%;}
+.section.about ul.feature-list .date, ul.feature-list .source {color: #444; display: block; padding: .3em 0; font-size: .85em;}
+
+
+abbr {text-decoration: none; }
 
