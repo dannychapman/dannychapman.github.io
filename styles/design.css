@@ -23,7 +23,7 @@ body {font-family: "museo-sans" "Helvetica Neue", Helvetica, Arial, sans-serif; 
 header {
   background: url(../images/design/backgrounds/header.jpg) 50% 100%;
   height: auto;
-  padding: 1em;
+  padding: 0 1em;
   box-sizing: border-box;
   text-align: center;
   background-size: cover;
@@ -32,19 +32,19 @@ header {
 }
 
 @media only screen and (min-width: 680px) {
-  header {padding: 1.5em 0; height: 13em;}
+  header {padding: 0; height: 13em;}
 }
 
 .banner {
   background: rgba(51,31,24,.85);
   display: inline-block;
-  padding: 0 .3em;
+  padding: 0 .3em .75em .75em;
 }
 
 header h1 {
   text-align: center;
   font-size: 1.25em;
-  padding: .15em .5em 0 .5em;
+  padding: .5em .5em 0 .5em;
   margin: 0 auto;
   display: block;
   font-family: "adobe-caslon-pro", "Georgia", serif;
@@ -87,10 +87,17 @@ span.date {display: block; color: #66534A; font-family: "adobe-caslon-pro", "Geo
 
 .previous {border-top: 2px dotted #66534A; margin-top: 1.5em; padding-top: 1em;}
 
+#content ul.button-list {margin: 1em 0; padding: 0;}
+#content ul.button-list li {display: inline-block; margin: 0 1em 0 0;}
+#content ul.button-list li a {background: #eee; background: rgba(0,0,0,.1); display: block; border-bottom: none; text-decoration: none; padding: .15em .75em;}
+
 /*** Footer ***/
 
 footer {background: #695850; margin: 1em 0 0 0; color: #fff; padding: 2em 5%; -webkit-box-shadow: 0 5px 5px rgba(0,0,0,.1) inset;}
 footer section {max-width: 700px; margin: 0 auto;}
+
+body.wide footer .section {max-width: 960px;}
+body.wide footer {padding: 2em 0;}
 
 @media only screen and (min-width: 680px) {
   footer {background: #695850 url(../images/design/backgrounds/footer.jpg) top center no-repeat; background-size: cover;}
@@ -104,6 +111,8 @@ footer a:hover {color: #E58C0C;}
 footer p {padding-right: 2em; font-size: .9em; color: #fff; color: rgba(255,255,255,.9);}
 footer .social a   {border-bottom: none;}
 
+a.button {background: rgba(255,255,255,.2); padding: .15em 1em; text-shadow: 0 1px 0 rgba(0,0,0,.2);}
+a.button span {opacity: .5;}
 
 footer h3 {text-transform: uppercase; letter-spacing: 0.1em; font-size: 1em; font-weight: 600; letter-spacing: 0.1em;}
 .bio img {border: 1px solid rgba(255,255,255,.5); margin: 0 1em 1em 0;}
@@ -118,10 +127,20 @@ img {max-width: 100%;}
 
 /*** About ***/
 
+.aside {border-top: 1px solid #205D82; padding: 2em 0 0 0; }
+
+@media only screen and (min-width: 680px) {
+  .aside {
+  padding: 0;
+  margin-top: 4em;
+  border-top: none;
+}
 .section.about h3, h4, h5, h6 {text-transform: uppercase; font-size: 1em; letter-spacing: 0.06em; font-weight: bold; color: #321F18;}
 .section.about img {max-width: 100%; width: 100%;}
 .section.about ul.feature-list .date, ul.feature-list .source {color: #444; display: block; padding: .3em 0; font-size: .85em;}
+footer  ul.feature-list .source {color: #fff; color: rgba(255,255,255,.7);}
 
+img.feature {border: 1px solid #ccc; margin-bottom: 1em; }
 
-abbr {text-decoration: none; }
+abbr {text-decoration: none; border-bottom: none; }
 

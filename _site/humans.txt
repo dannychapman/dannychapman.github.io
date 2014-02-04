@@ -4,7 +4,7 @@ Danny Chapman, dannychapman.com
 
 /* Site */
 
-Last Update: 2014-01-16 09:52:50 -0500
+Last Update: 2014-02-04 12:45:02 -0500
 Generator: Jekyll
 Hosting: GitHub Pages
 Standards: HTML5, CSS3
