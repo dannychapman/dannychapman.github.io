@@ -21,24 +21,23 @@ body {font-family: "museo-sans" "Helvetica Neue", Helvetica, Arial, sans-serif; 
 /*** Header ***/
 
 header {
-  background: url(../images/design/backgrounds/header.jpg) 50% 100%;
+  /* background: url(../images/design/backgrounds/header.jpg) 50% 100%; */
+  background: #205D82;
   height: auto;
-  padding: 0 1em;
+  padding: 2em 1em;
   box-sizing: border-box;
   text-align: center;
   background-size: cover;
-  -webkit-box-shadow: 0 4px 4px rgba(0,0,0,.2);
-  border-bottom: 1px double #331F18;
+  -webkit-box-shadow: 0 4px 4px rgba(0,0,0,.15);
 }
 
 @media only screen and (min-width: 680px) {
-  header {padding: 0; height: 13em;}
+  header {padding: 0;}
 }
 
 .banner {
-  background: rgba(51,31,24,.85);
-  display: inline-block;
-  padding: 0 .3em .75em .75em;
+
+  padding: 2em .3em 3em .75em;
 }
 
 header h1 {
@@ -54,7 +53,7 @@ header h1 {
 }
 
 
-header .banner h2 {text-align: center; padding: 0 0 .5em 0; margin: 0; font-size: 1.1em; font-family: "adobe-caslon-pro"; font-weight: 300;  clear: both; color: rgba(255,255,255,.7); letter-spacing: 0.05em;}
+header .banner h2 {text-align: center; padding: .65em 0 .5em 0; margin: 0; font-size: 1.1em; font-family: "museo-sans", Helvetica, Arial, sans-serif; font-weight: 300;  clear: both; color: rgba(255,255,255,.7); letter-spacing: 0.05em;}
 
 @media only screen and (min-width: 680px) {
   header h1 {font-size: 3.75em;}
@@ -93,25 +92,25 @@ span.date {display: block; color: #66534A; font-family: "adobe-caslon-pro", "Geo
 
 /*** Footer ***/
 
-footer {background: #695850; margin: 1em 0 0 0; color: #fff; padding: 2em 5%; -webkit-box-shadow: 0 5px 5px rgba(0,0,0,.1) inset;}
+footer {background: #0D1230; margin: 1em 0 0 0; color: #fff; padding: 2em 5%; -webkit-box-shadow: 0 5px 5px rgba(0,0,0,.1) inset;}
 footer section {max-width: 700px; margin: 0 auto;}
 
 body.wide footer .section {max-width: 960px;}
 body.wide footer {padding: 2em 0;}
 
 @media only screen and (min-width: 680px) {
-  footer {background: #695850 url(../images/design/backgrounds/footer.jpg) top center no-repeat; background-size: cover;}
+  footer {background: #0D1230; }
 }
 
 footer div {color: #fff; color: rgba(255,255,255.9);}
 footer abbr[title] {text-decoration: none; border-bottom: none;}
 footer h3 abbr {font-weight: 200; }
 footer a {color: #fff; color: rgba(255,255,255,.85); text-decoration: none;}
-footer a:hover {color: #E58C0C;}
+footer a:hover {color: #eee;}
 footer p {padding-right: 2em; font-size: .9em; color: #fff; color: rgba(255,255,255,.9);}
 footer .social a   {border-bottom: none;}
 
-a.button {background: rgba(255,255,255,.2); padding: .15em 1em; text-shadow: 0 1px 0 rgba(0,0,0,.2);}
+a.button {background: #1B5C83; padding: .35em 1em; text-shadow: 0 1px 0 rgba(0,0,0,.2);}
 a.button span {opacity: .5;}
 
 footer h3 {text-transform: uppercase; letter-spacing: 0.1em; font-size: 1em; font-weight: 600; letter-spacing: 0.1em;}
@@ -143,4 +142,3 @@ footer  ul.feature-list .source {color: #fff; color: rgba(255,255,255,.7);}
 img.feature {border: 1px solid #ccc; margin-bottom: 1em; }
 
 abbr {text-decoration: none; border-bottom: none; }
-
