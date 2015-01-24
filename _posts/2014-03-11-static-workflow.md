@@ -17,7 +17,7 @@ This week, I was lucky enough to moderate a panel at SXSW Interactive on static 
 
 What’s interesting in reverting to static files is just that - the files. By representing website content in a file, and not somewhere in a database, how you interact with that file can change.
 
-To be clear, I think it’s important to not conflate git and GitHub when it comes to static site generation. If you’re using GitHub pages and Jekyll, then git is indeed baked in. But, a static site does not by definition mean you’re using git. What it does mean, is you now have a physical file, that lives *somewhere*, and that makes things interesting. A simple markdown file can be edited offline, in text editor, online is a SAAS product, or managed directly in a version controlled flow of your choice — git, or otherwise.
+To be clear, I think it’s important to not conflate git and GitHub when it comes to static site generation. If you’re using GitHub pages and Jekyll, then git is indeed baked in. But, a static site does not by definition mean you’re using git. What it does mean, is you now have a physical file, that lives *somewhere*, rather than a database. That makes things interesting, and generally speaking, much more flexible. A simple markdown file can be edited offline, in text editor, online is a SAAS product, or managed directly in a version controlled flow of your choice — git, or otherwise.
 
 ### Structured Content
 
