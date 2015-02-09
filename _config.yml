@@ -23,7 +23,3 @@ permalink: /:year/:month/:day/:title/
 
 #whether production or dev, minifies JS, bool
 production: true
-
-#local build config
-highlighter: null
-safe: true
