@@ -10,7 +10,7 @@ description: Web designer and Open Government Fanboy Danny Chapman
 url: http://dannychapman.com
 
 #files to exclude, array
-exclude: [ 'readme.md', 'php' ]
+exclude: [ 'readme.md', 'php', 'node_modules' ]
 
 #posts per page
 paginate: 1
