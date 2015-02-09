@@ -1,16 +1,20 @@
+<div class="blog-posts">
+  <div class="post-article">
+  <div class="row">
+    <div class="small-12 large-9 large-centered columns">
 
-<article class="post{{ page.id | replace:"/","-" }}" class="post post{{ page.id | replace:"/","-" }}" role="main">
 
-<h2 class="title"><a href="{{ site.url}}{{ page.url }}">{{ page.title }}</a></h2> 
+<article class="post{{ page.id | replace:"/","-" }}" class="post-preview post{{ page.id | replace:"/","-" }}" role="main">
 
-<div class="entrybody">
+<h2 class="title"><a href="{{ site.url}}{{ page.url }}">{{ page.title }}</a></h2>
+
 
 {{ page.content | markdownify }}
 
-</div><!-- .entrybody -->
+
 
 <div class="post-meta">
-<span class="entry-date">{{ page.date | date: '%B %d, %Y' }}</span> 
+<span class="entry-date">{{ page.date | date: '%B %d, %Y' }}</span>
 <span class="entry-author">by {{ page.author }}</span>
 </div>
 
@@ -33,8 +37,8 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
 
 </article>
 
-<div class="previous">  
-  
+<div class="previous">
+
 <h3>Previous Posts</h3>
 
 
@@ -46,4 +50,8 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
 {% endfor %}
 </ul>
 
+</div>
+</div>
+</div>
+</div>
 </div>

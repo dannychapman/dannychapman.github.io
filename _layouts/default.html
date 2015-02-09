@@ -1,11 +1,61 @@
-{% include header.html %}
+  {% include header.html %}
 
-<div id="content">
+  <div class="banner">
+    <div class="row">
+      <div class="small-11 columns">
+        <h1><a href="../../index.html">Danny Chapman <span>Design &amp; Usability</span></a></h1>
+      </div>
+
+      <div class="small-1 columns"><button id="trigger-overlay" type="button">Menu</button></div>
+
+      <div class="overlay overlay-slidedown">
+        <button type="button" class="overlay-close">Close</button>
+        <nav>
+          <ul>
+            <li><a href="../../">Home</a></li>
+            <li><a href="../../about/index.html">About</a></li>
+            <li><a href="../../portfolio/">Portfolio</a></li>
+            <li><a href="mailto:gooddesign@ducstudio.com">Get in touch</a></li>
+          </ul>
+        </nav>
+      </div>
+
+    </div>
+
+    <div class="row">
+    <div class="opening-pitch">
+      <div class="row wow fadeInDown">
+        <div class="large-12 large-centered columns">
+          <blockquote>
+            Designer of applications, products and services.
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+
+<div class="overlay overlay-slidedown">
+  <button type="button" class="overlay-close">Close</button>
+  <nav>
+    <ul>
+      <li><a href="{{ site.url }}">Home</a></li>
+      <li><a href="{{ site.url }}/about/">About</a></li>
+      <li><a href="{{ site.url }}/portfolio/">Portfolio</a></li>
+      <li><a href="mailto:gooddesign@ducstudio.com">Get in touch</a></li>
+    </ul>
+  </nav>
+</div>
+
+
+<div class="page">
 
 
                 {{ content }}
 
-</div><!-- /content -->
+</div><!-- /page -->
 
 
 {% include footer.html %}

@@ -6,29 +6,94 @@ layout: default
 
 <!-- using the split filter -->
 {% for post in site.posts limit:1 %}
-   <div class="post-preview">
-   <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-   <p class="post-date">{{ post.date | date: "%B %d, %Y" }}</p>
-   {{ post.content | split:'<!--break-->' | first }}
-   {% if post.content contains '<!--break-->' %}
-      <em><a href="{{ post.url }}">read on &rarr;</a></em>
-   {% endif %}
-   </div>
-
-{% endfor %}
 
 
-<div class="previous">  
-  
-<h3>Previous Posts</h3>
+<div class="recent-work">
+  <div class="row wow fadeIn" data-wow-delay="0.85s">
+    <div class="large-12 columns">
+      <h3>Recent Work</h3>
+    </div>
+  </div>
+
+  <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-4 wow fadeIn" data-wow-delay="1s">
+
+    <li class="item two wow fadeIn" data-wow-delay="1s">
+      <a href="work/bertgallery/index.html">
+        <span class="item-name">
+          <strong><abbr>Design</abbr></strong>
+          <span class="description">Bert Gallery</span>
+        </span>
+      </a>
+    </li>
+
+    <li class="item three wow fadeIn" data-wow-delay="1.25s">
+      <a href="work/sxsw/index.html">
+        <span class="item-name">
+          <strong><abbr>Speaking</abbr></strong>
+          <span class="description">SXSW</span>
+        </span>
+      </a>
+    </li>
+
+    <li class="item four wow fadeIn" data-wow-delay="1.45s">
+      <a href="work/hawaii/index.html">
+        <span class="item-name">
+          <strong><abbr>Creative Direction</abbr></strong>
+          <span class="description">Hawaii.gov</span>
+        </span>
+      </a>
+    </li>
 
 
-<ul class="posts">
-{% for post in site.posts %}
-    {% if post.categories contains 'past' %}
-        <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a> <span class="date">{{ post.date | date_to_string }}</span></li>
-    {% endif %}
-{% endfor %}
-</ul>
+    <li class="item six wow fadeIn" data-wow-delay="1.65s">
+      <a href="work/pif/index.html">
+        <span class="item-name">
+          <strong><abbr>Branding</abbr></strong>
+          <span class="description">Presidential Innovation Fellows</span>
+        </span>
+      </a>
+    </li>
 
+  </ul>
+</div>
+
+
+<div class="blog-posts">
+
+  <div class="row">
+    <div class="small-12 columns">
+      <h3 class="title">Writing</h3>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="large-9 large-centered columns">
+      <div class="post-preview">
+
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <div class="post-date">{{ post.date | date: "%B %d, %Y" }}</div>
+        {{ post.content | split:'<!--break-->' | first }}
+        {% if post.content contains '<!--break-->' %}
+        <em><a href="{{ post.url }}">read on &rarr;</a></em>
+        {% endif %}
+
+
+        {% endfor %}
+
+
+        <div class="previous">
+
+          <h3>Previous Posts</h3>
+          <ul class="posts">
+            {% for post in site.posts %}
+            {% if post.categories contains 'past' %}
+            <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a> <span class="date">{{ post.date | date_to_string }}</span></li>
+            {% endif %}
+            {% endfor %}
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
