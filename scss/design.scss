@@ -32,8 +32,10 @@ h1, h2, h3, h4, h5, h6 {font-family: "proxima-nova", Helvetica, Arial, sans-seri
     img.banner {
       margin: 0 0 1.5em 0;
       width: 100%;
+      display: none;
+      @media #{$medium} {display: block;}
     }
-    &.hawaii, &.pif, &.sxsw, &.bertgallery {padding: 0; }
+    &.hawaii, &.pif, &.sxsw, &.bertgallery {padding: 1em 0 0 0; @media #{$medium} {padding: 0;} }
   }
   h2 {padding: .5em 0 1em 0; margin: 0;}
 }
@@ -79,14 +81,14 @@ h2, h3, h4 {
 
 .banner {
   position: relative;
+  text-align: center;
   blockquote {
     margin: 2em 0;
+    padding: 0 2em;
     font-size: 1.6em;
     @media #{$medium} {margin: 3.8em 0; font-size: 2em;}
     padding: 0;
     text-align: center;
-
-    max-width: 90%;
     color: #fff; font-weight: 300;
     }
 
@@ -498,6 +500,8 @@ button#trigger-overlay {
   background: none;
   text-transform: uppercase;
   display: inline-block;
+  font-size: .8em;
+  @media #{$medium} {font-size: 1em;}
   letter-spacing: 0.05em;
   }
 
