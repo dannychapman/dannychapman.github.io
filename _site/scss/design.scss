@@ -475,7 +475,7 @@ footer {
   left: 0;
   margin: 0;
   z-index: 400;
-  background: rgba(#F1552C,0.92);
+  background: rgba(#F1552C,0.95);
 }
 
 /* Overlay closing cross */
@@ -526,17 +526,18 @@ button#trigger-overlay {
 .overlay ul li {
   display: block;
   height: 20%;
-  height: calc(100% / 5);
+  height: calc(100% / 4);
   min-height: 54px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
 .overlay ul li a {
-  font-size: 54px;
+  font-size: 34px;
   font-weight: 300;
   display: block;
   color: #fff;
+  text-decoration: none;
   -webkit-transition: color 0.2s;
   transition: color 0.2s;
 }
@@ -566,9 +567,9 @@ button#trigger-overlay {
 @media screen and (max-height: 30.5em) {
   .overlay nav {
     height: 70%;
-    font-size: 34px;
+    font-size: 28px;
   }
   .overlay ul li {
-    min-height: 34px;
+    min-height: 28px;
   }
 }
