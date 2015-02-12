@@ -80,10 +80,12 @@ h2, h3, h4 {
 .banner {
   position: relative;
   blockquote {
-    margin: 3.8em 0;
+    margin: 2em 0;
+    font-size: 1.6em;
+    @media #{$medium} {margin: 3.8em 0; font-size: 2em;}
     padding: 0;
     text-align: center;
-    font-size: 2em;
+
     max-width: 90%;
     color: #fff; font-weight: 300;
     }
@@ -135,7 +137,8 @@ ul.feature-list {
 
 .recent-work {
   background: rgba(#221948,.75);
-  padding: 2em 0 3em 0;
+  padding: 2em 0 0 0;
+  @media #{$medium} {padding: 2em 0 3em 0;}
   h3 {
     padding: .5em;
     line-height: 1em;
@@ -414,7 +417,10 @@ footer {
   }
   color: #fff;
   padding: 5em 0;
-  a {color: #fff; span.date {text-decoration: none;}}
+  a {
+    color: #fff;
+    &:hover {color: #fff; color: rgba(255,255,255,.7);}
+    span.date {text-decoration: none;}}
 
   ul {margin: 0; padding: 0;}
 
