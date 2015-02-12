@@ -3,7 +3,7 @@ title: Static flow
 description:
 author: Danny Chapman
 layout: post
-category: current
+category: past
 tags:
  - Open Data
  - Design
