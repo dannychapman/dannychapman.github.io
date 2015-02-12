@@ -7,8 +7,8 @@ name: Danny Chapman
 description: Web designer and Open Government Fanboy Danny Chapman
 
 #URL of site, include http://, do not include a trailing slash
-url: http://localhost:4000
-# url: http://dannychapman.com
+# url: http://localhost:4000
+url: http://dannychapman.com
 
 #files to exclude, array
 exclude: [ 'readme.md', 'php', 'node_modules' ]
