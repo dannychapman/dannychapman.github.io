@@ -36,6 +36,7 @@ h1, h2, h3, h4, h5, h6 {font-family: "proxima-nova", Helvetica, Arial, sans-seri
       @media #{$medium} {display: block;}
     }
     &.hawaii, &.pif, &.sxsw, &.bertgallery {padding: 1em 0 0 0; @media #{$medium} {padding: 0;} }
+    &.about {padding: 1em 0 0 0;}
   }
   h2 {padding: .5em 0 1em 0; margin: 0;}
 }
@@ -135,7 +136,6 @@ ul.feature-list {
   }
 }
 
-.aside {padding-left: 3em;}
 
 .recent-work {
   background: rgba(#221948,.75);
