@@ -79,7 +79,14 @@ h2, h3, h4 {
 
 .banner {
   position: relative;
-  blockquote {margin: 3.8em 0; text-align: center; font-size: 2em; color: #fff; font-weight: 300;}
+  blockquote {
+    margin: 3.8em 0;
+    padding: 0;
+    text-align: center;
+    font-size: 2em;
+    max-width: 90%;
+    color: #fff; font-weight: 300;
+    }
 
   button {margin: 0; display: inline-block; padding: 1.5em; border: 0; position: absolute; top: 1em; right: 1em;
   text-align: right;
