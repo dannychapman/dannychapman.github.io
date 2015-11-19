@@ -1,17 +1,21 @@
 ---
 title: Static flow
-description:
+description: null
 author: Danny Chapman
 layout: post
 category: past
-tags:
- - Open Data
- - Design
- - Workflow
+tags: 
+  - Open Data
+  - Design
+  - Workflow
 published: true
 ---
 
-This week, I was lucky enough to moderate a panel at SXSW Interactive on static website design. Great discussion was had from a variety of points of view — coder, designer, project manager. What really stood out from our conversation, and from the great questions from the audience, was that was this isn't really about tools - it is about workflow. How going from a larger CMS, or software driven process to something more nimble can effect positive change in every part of the website production process.
+
+This week, I was lucky enough to moderate a panel at SXSW Interactive on static website design. Great discussion was had from a variety of points of view — coder, designer, project manager. What really stood out from our conversation, and from the great questions from the audience, was that was this isn't really about tools - it is about workflow. How going from a larger CMS, or software driven process to something more nimble can effect positive change in every part
+of the website production process.
+
+[Apple](http://apple.com)
 
 ### Process
 
