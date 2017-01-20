@@ -2,149 +2,114 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">    
   <url>
-    <loc>http://localhost:4000/</loc>
-    <lastmod>2015-02-12T10:22:10-07:00</lastmod>
+    <loc>http://dannychapman.com/</loc>
+    <lastmod>2017-01-20T10:27:21-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:4000/404.html</loc>
-    <lastmod>2015-02-12T10:22:10-07:00</lastmod>
+    <loc>http://dannychapman.com/404/</loc>
+    <lastmod>2017-01-20T10:27:21-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>http://localhost:4000/categories/</loc>
-    <lastmod>2015-02-12T10:22:10-07:00</lastmod>
+    <loc>http://dannychapman.com/categories/</loc>
+    <lastmod>2017-01-20T10:27:21-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>http://localhost:4000/feed/</loc>
-    <lastmod>2015-02-12T10:22:10-07:00</lastmod>
+    <loc>http://dannychapman.com/feed/</loc>
+    <lastmod>2017-01-20T10:27:21-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>http://localhost:4000/</loc>
-    <lastmod>2015-02-12T10:22:10-07:00</lastmod>
+    <loc>http://dannychapman.com/posts/</loc>
+    <lastmod>2017-01-20T10:27:21-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>http://localhost:4000/posts/</loc>
-    <lastmod>2015-02-12T10:22:10-07:00</lastmod>
+    <loc>http://dannychapman.com/</loc>
+    <lastmod>2017-01-20T10:27:21-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>http://localhost:4000/posts.json</loc>
-    <lastmod>2015-02-12T10:22:10-07:00</lastmod>
+    <loc>http://dannychapman.com/posts.json</loc>
+    <lastmod>2017-01-20T10:27:21-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>http://localhost:4000/sitemap.xml</loc>
-    <lastmod>2015-02-12T10:22:10-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:4000/page2/</loc>
-    <lastmod>2015-02-12T10:22:10-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:4000/page3/</loc>
-    <lastmod>2015-02-12T10:22:10-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:4000/page4/</loc>
-    <lastmod>2015-02-12T10:22:10-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:4000/page5/</loc>
-    <lastmod>2015-02-12T10:22:10-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:4000/page6/</loc>
-    <lastmod>2015-02-12T10:22:10-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:4000/page7/</loc>
-    <lastmod>2015-02-12T10:22:10-07:00</lastmod>
+    <loc>http://dannychapman.com/sitemap.xml</loc>
+    <lastmod>2017-01-20T10:27:21-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   
   <url>
-    <loc>http://localhost:4000/2015/02/12/reboot/</loc>
-    <lastmod>2015-02-12T00:00:00-07:00</lastmod>
+    <loc>http://dannychapman.com/2017/01/20/hope/</loc>
+    <lastmod>2017-01-20T00:00:00-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>http://localhost:4000/2014/03/11/static-workflow/</loc>
-    <lastmod>2014-03-11T00:00:00-06:00</lastmod>
+    <loc>http://dannychapman.com/2015/02/12/reboot/</loc>
+    <lastmod>2015-02-12T00:00:00-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>http://localhost:4000/2014/01/16/quick-hits/</loc>
-    <lastmod>2014-01-16T00:00:00-07:00</lastmod>
+    <loc>http://dannychapman.com/2014/03/11/static-workflow/</loc>
+    <lastmod>2014-03-11T00:00:00-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>http://localhost:4000/2013/10/21/wheres-the-beta/</loc>
-    <lastmod>2013-10-21T00:00:00-06:00</lastmod>
+    <loc>http://dannychapman.com/2014/01/16/quick-hits/</loc>
+    <lastmod>2014-01-16T00:00:00-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>http://localhost:4000/2013/09/05/open-source-design/</loc>
-    <lastmod>2013-09-05T00:00:00-06:00</lastmod>
+    <loc>http://dannychapman.com/2013/10/21/wheres-the-beta/</loc>
+    <lastmod>2013-10-21T00:00:00-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>http://localhost:4000/2013/07/01/makers-of-things/</loc>
-    <lastmod>2013-07-01T00:00:00-06:00</lastmod>
+    <loc>http://dannychapman.com/2013/09/05/open-source-design/</loc>
+    <lastmod>2013-09-05T00:00:00-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>http://localhost:4000/2013/06/10/government-design/</loc>
-    <lastmod>2013-06-10T00:00:00-06:00</lastmod>
+    <loc>http://dannychapman.com/2013/07/01/makers-of-things/</loc>
+    <lastmod>2013-07-01T00:00:00-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://dannychapman.com/2013/06/10/government-design/</loc>
+    <lastmod>2013-06-10T00:00:00-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
